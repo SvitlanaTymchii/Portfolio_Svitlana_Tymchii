@@ -1,6 +1,7 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
+  --hero-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -10,48 +11,57 @@ font-family: 'Poppins', sans-serif;
 */
 
 body {
-  margin: 60px auto;
+  margin: 0px auto;
   max-width: 100%;
   font-family: "Poppins", sans-serif;
 }
 
-h1,
-h2,
-h3 {
+.hero {
+  background-color: var(--hero-color);
   text-align: center;
+  padding: 160 px 20px;
   margin: 0;
 }
 
-h1 {
+.hero h1 {
   font-size: 96 px;
   font-family: "Playfair Display", serif;
-  font-weight: bold;
-
+  font-weight: normal;
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
   line-height: 128px;
 }
 
-h2 {
+.hero h2 {
   font-family: "Poppins", sans-serif;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
-  /* identical to box height */
-  text-align: center;
+  font-style: normal;
 }
 
-h3 {
+.hero h3 {
   opacity: 0.7;
   font-size: 24px;
-  text-align: center;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
+}
+
+h4 {
+  width: 529px;
+  height: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #272142;
+  background-color: white;
 }
 
 p {
@@ -66,7 +76,7 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: center;
 }
 
