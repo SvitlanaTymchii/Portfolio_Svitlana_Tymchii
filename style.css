@@ -142,3 +142,10 @@ h2 {
   font-size: 36px;
   line-height: 85px;
 }
+
+@media only screen and (max-width: 960px) {
+  .project-description {
+    text-align: center;
+    padding: 0px;
+  }
+}
