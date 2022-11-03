@@ -95,6 +95,12 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.about-section {
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
 .about-section h1 {
   font-family: var(--h1-font-family);
   font-weight: normal;
