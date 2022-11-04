@@ -107,6 +107,7 @@ p {
   font-style: normal;
   font-size: 64 px;
   line-height: 1.5;
+  padding-top: 120px;
 }
 
 .about-section h2 {
@@ -123,8 +124,41 @@ p {
 }
 
 .about-section .my_photo {
-  max-width: 45%;
+  max-width: 70%;
   height: auto;
+}
+
+.conteiner {
+  text-align: center !important;
+}
+
+.content {
+}
+
+.content h1 {
+  font-family: var(--h1-font-family);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 64 px;
+  line-height: 1.5;
+  padding-top: 120px;
+  padding-bottom: 25px;
+}
+.content h3 {
+  font-family: var(--paragraf-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+.content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(39, 33, 66, 0.7);
 }
 
 @media only screen and (max-width: 960px) {
