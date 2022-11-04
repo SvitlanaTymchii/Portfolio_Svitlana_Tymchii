@@ -12,6 +12,9 @@ body {
   max-width: 100%;
   font-family: var(--paragraf-font-family);
 }
+.active {
+  color: var(--primary-color) !important;
+}
 
 .hero {
   background-color: var(--hero-color);
