@@ -6,6 +6,9 @@
   --paragraf-font-family: "Poppins", sans-serif;
   --h1-font-family: "Playfair Display", serif;
 }
+.collapse {
+  text-align: right !important;
+}
 
 body {
   margin: 0px auto;
