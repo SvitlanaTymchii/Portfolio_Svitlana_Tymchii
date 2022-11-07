@@ -19,7 +19,7 @@ h4 {
   font-family: var(--h1-font-family);
   font-style: normal;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 30px;
   line-height: 64px;
 }
 .active {
@@ -188,7 +188,7 @@ footer .contact-box {
 footer .contact-box p {
   background: var(--secondary-color);
   text-align: left;
-  font-size: 27px;
+  font-size: 20px;
 }
 
 footer .email-link {
